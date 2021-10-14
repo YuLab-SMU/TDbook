@@ -446,7 +446,7 @@ NA
 #' @title Tree to display with dot and line plots of pairwise nucleotide sequence distances
 #'
 #' @description 
-#' This tree to provide accession numbers from its tip labels, which are used to 
+#' This tree is to provide accession numbers from its tip labels, which are used to 
 #' calculates pairwise nucleotide sequence distances. The distance matrix 
 #' then is visualized as dot and line plots and attached to the tree, 
 #' demonstrating the abilities of `facet_plot()` of ggtree that can add 
