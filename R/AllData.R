@@ -25,7 +25,6 @@ NA
 #' @aliases sequence.fasta
 #' @docType data
 #' @keywords data
-#' @import tidytree
 #' @examples
 #' data(sequence.fasta)
 NA
@@ -466,6 +465,18 @@ NA
 #' data(HPV58.tree)
 NA
 
+#' @title A DNAStringSet class to store the aligned sequnces of species of HPV58.tree
+#' @name data-HPV58_aln.fas
+#' @format S4 class:DNAStringSet
+#' @aliases HPV58_aln.fas
+#' @docType data
+#' @keywords data
+#' @source
+#' \url{https://doi.org/10.1128/JVI.01285-17}
+#' @examples
+#' data(HPV58_aln.fas)
+NA
+
 #' @title Tree to display with symbolic points indicating partitioned bootstrap values
 #'
 #' @description 
@@ -476,11 +487,10 @@ NA
 #' Chap.13.2
 #'
 #' @name data-RMI.phy_phyml_tree
-#' @format S4 class:treedata
+#' @format character
 #' @aliases RMI.phy_phyml_tree
 #' @docType data
 #' @keywords data
-#' @import tidytree
 #' @examples
 #' data(RMI.phy_phyml_tree)
 NA

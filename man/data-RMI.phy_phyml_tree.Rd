@@ -6,7 +6,7 @@
 \alias{RMI.phy_phyml_tree}
 \title{Tree to display with symbolic points indicating partitioned bootstrap values}
 \format{
-S4 class:treedata
+character
 }
 \description{
 This tree is to display with symbolic points with different color or shape
