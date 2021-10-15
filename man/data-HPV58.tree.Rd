@@ -12,7 +12,7 @@ S3 class:phylo
 \url{https://doi.org/10.1128/JVI.01285-17}
 }
 \description{
-This tree to provide accession numbers from its tip labels, which are used to
+This tree is to provide accession numbers from its tip labels, which are used to
 calculates pairwise nucleotide sequence distances. The distance matrix
 then is visualized as dot and line plots and attached to the tree,
 demonstrating the abilities of \code{facet_plot()} of ggtree that can add

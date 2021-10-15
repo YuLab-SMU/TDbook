@@ -14,7 +14,7 @@ S3 class:phylo
 \description{
 This tree is used to demonstrate the functionality of plotting continuous
 state transition in edges using the \code{continuous} parameter of \code{ggtree}.\cr
-Chap.4.3.5
+Chap.4.3.5. This file is provided in \url{http://www.phytools.org/eqg2015/asr.html}.
 }
 \examples{
 data(anole.tre)

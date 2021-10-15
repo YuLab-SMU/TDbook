@@ -34,7 +34,7 @@ NA
 #' @description 
 #' This tree is used to demonstrate the functionality of plotting continuous 
 #' state transition in edges using the `continuous` parameter of `ggtree`.\cr
-#' Chap.4.3.5
+#' Chap.4.3.5. This file is provided in \url{http://www.phytools.org/eqg2015/asr.html}.
 #'
 #' @name data-anole.tre
 #' @format S3 class:phylo
@@ -53,7 +53,7 @@ NA
 #' Data frame containing slv information to scale the color of the tree using 
 #' the `continuous` parameter of `ggtree` to plot continuous state transition 
 #' in edges.\cr
-#' Chap.4.3.5
+#' Chap.4.3.5. This file is provided in \url{http://www.phytools.org/eqg2015/asr.html}.
 #'
 #' @name data-svl.csv
 #' @format A data frame contains 100 rows and 1 variables.
@@ -62,7 +62,7 @@ NA
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
-#' \url{http://www.phytools.org/eqg2015/data/anole.tre}
+#' \url{http://www.phytools.org/eqg2015/data/svl.csv}
 #' @examples
 #' data(svl.csv)
 NA
