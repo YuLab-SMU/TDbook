@@ -70,17 +70,23 @@ NA
 #' @title Tree to reroot
 #'
 #' @description 
-#' This tree is used to demonstrate the `reroot()` method for treedata object
+#' This tree is used to demonstrate the `root()` method for treedata object
 #' to re-root a phylogenetic tree with associated data.\cr
 #' Chap.2.3
 #'
-#' @name data-test.nw
+#' @name data-tree_nodes.newick
 #' @format S4 class:treedata
-#' @aliases test.nw
+#' @aliases tree_nodes.newick
 #' @docType data
 #' @keywords data
+#' @source
+#' \url{https://github.com/stamatak/tree-viz-issues}
+#' @references Lucas Czech, Jaime Huerta-Cepas, Alexandros Stamatakis, 
+#'  A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.
+#'  Molecular Biology and Evolution, Volume 34, Issue 6, June 2017, Pages 1535–1542, 
+#'  https://doi.org/10.1093/molbev/msx055
 #' @examples 
-#' data(test.nw)
+#' data(tree_nodes.newick)
 NA
 
 #' @title Tree to group and highlight
