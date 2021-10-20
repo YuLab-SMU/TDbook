@@ -1,30 +1,29 @@
-rda rawdata
-df_alleles  tree_example_april2015/alleles.csv
-df_info tree_example_april2015/info.csv
-df_alltax_info alltax_info.csv
-df_barplot_attr    HMP_tree/barplot_attr.csv
-df_ring_heatmap HMP_tree/ringheatmap_attr.csv
-df_tippoint HMP_tree/tippoint_attr.csv
-df_difftax  difftax_tab.csv
-df_inode_data   inode_data.csv
-df_svl  svl.csv
-df_tip_data tip_data.csv
-df_NJIDqgsS microreact/Salmonella_Typhi/microreact-project-NJIDqgsS-data.csv
-df_Candidaauris_data    microreact/Candida_auris/microreact-project-Candidaauris-data.csv
-tree_Candidaauris   microreact/Candida_auris/microreact-project-Candidaauris-tree.nwk
-tree_NJIDqgsS   microreact/Salmonella_Typhi/microreact-project-NJIDqgsS-tree.nwk
-tree_anole  anole.tre
-tree_hmptree    HMP_tree/hmptree.nwk
-tree_long_branch_example    long_branch_example.newick
-tree_treenwk_30.4.19    Tree_30.4.19.nwk
-tree_boots  tree_boots.nwk
-tree_nex    tree.nex
-tree_nwk    tree_example_april2015/tree.nwk
-tree_seq_nwk    tree.nwk
-tree_td_nodes_nwk   reroot/tree_nodes.newick
-tree_HPV58  HPV58.tree
-dna_HPV58_aln   HPV58_aln.fas
-gg_ladderize_example   ladderize_example.rds
-text_RMI_tree   RMI.phy_phyml_tree_rooted_labeled.txt
-dna_sequence    sequence.fasta
-
+rda,rawdata
+df_alleles,tree_example_april2015/alleles.csv
+df_info,tree_example_april2015/info.csv
+df_alltax_info,alltax_info.csv
+df_barplot_attr,HMP_tree/barplot_attr.csv
+df_ring_heatmap,HMP_tree/ringheatmap_attr.csv
+df_tippoint,HMP_tree/tippoint_attr.csv
+df_difftax,difftax_tab.csv
+df_inode_data,inode_data.csv
+df_svl,svl.csv
+df_tip_data,tip_data.csv
+df_NJIDqgsS,microreact/Salmonella_Typhi/microreact-project-NJIDqgsS-data.csv
+df_Candidaauris_data,microreact/Candida_auris/microreact-project-Candidaauris-data.csv
+tree_Candidaauris,microreact/Candida_auris/microreact-project-Candidaauris-tree.nwk
+tree_NJIDqgsS,microreact/Salmonella_Typhi/microreact-project-NJIDqgsS-tree.nwk
+tree_anole,anole.tre
+tree_hmptree,HMP_tree/hmptree.nwk
+tree_long_branch_example,long_branch_example.newick
+tree_treenwk_30.4.19,Tree_30.4.19.nwk
+tree_boots,tree_boots.nwk
+tree_nex,tree.nex
+tree_nwk,tree_example_april2015/tree.nwk
+tree_seq_nwk,tree.nwk
+tree_td_nodes_nwk,reroot/tree_nodes.newick
+tree_HPV58,HPV58.tree
+dna_HPV58_aln,HPV58_aln.fas
+gg_ladderize_example,ladderize_example.rds
+text_RMI_tree,RMI.phy_phyml_tree_rooted_labeled.txt
+dna_sequence,sequence.fasta
