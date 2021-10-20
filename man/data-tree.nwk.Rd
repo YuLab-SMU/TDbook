@@ -4,9 +4,18 @@
 \name{data-tree.nwk}
 \alias{data-tree.nwk}
 \alias{tree.nwk}
-\title{tree (phylo class) to display with multiple sequence alignment}
+\title{Tree to display with sampling information, SNP and Trait data}
+\format{
+S3 class:phylo
+}
+\source{
+\url{https://raw.githubusercontent.com/katholt/plotTree/master/
+tree_example_april2015/tree.nwk}
+}
 \description{
-This tree is used to display with multiple sequence alignment
+The tree to display with sampling information, attached with dot chart of SNP
+and bar chart of Trait data.\cr
+Chap.7.2
 }
 \examples{
 data(tree.nwk)
