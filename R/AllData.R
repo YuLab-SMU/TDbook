@@ -4,13 +4,13 @@
 #' This tree is used to display with multiple sequence alignment.\cr
 #' Chap.7.4
 #'
-#' @name data-tree_seq.nwk
+#' @name data-tree_seq_nwk
 #' @format S3 class:phylo
-#' @aliases tree_seq.nwk
+#' @aliases tree_seq_nwk
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(tree_seq.nwk)
+#' data(tree_seq_nwk)
 NA
 
 #' @title Data set containing multiple sequence alignment information
@@ -20,13 +20,13 @@ NA
 #' attached to the tree.\cr
 #' Chap.7.4
 #'
-#' @name data-sequence.fasta
+#' @name data-dna_sequence
 #' @format DNAbin
-#' @aliases sequence.fasta
+#' @aliases dna_sequence
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(sequence.fasta)
+#' data(dna_sequence)
 NA
 
 #' @title Tree to color with continuous state transition in edges
@@ -36,15 +36,15 @@ NA
 #' state transition in edges using the `continuous` parameter of `ggtree`.\cr
 #' Chap.4.3.5. This file is provided in \url{http://www.phytools.org/eqg2015/asr.html}.
 #'
-#' @name data-anole.tre
+#' @name data-tree_anole
 #' @format S3 class:phylo
-#' @aliases anole.tre
+#' @aliases tree_anole
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{http://www.phytools.org/eqg2015/data/anole.tre}
 #' @examples
-#' data(anole.tre)
+#' data(tree_anole)
 NA
 
 #' @title Data frame containing slv information
@@ -55,39 +55,39 @@ NA
 #' in edges.\cr
 #' Chap.4.3.5. This file is provided in \url{http://www.phytools.org/eqg2015/asr.html}.
 #'
-#' @name data-svl.csv
+#' @name data-df_svl
 #' @format A data frame contains 100 rows and 1 variables.
-#' @aliases svl.csv
+#' @aliases df_svl
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{http://www.phytools.org/eqg2015/data/svl.csv}
 #' @examples
-#' data(svl.csv)
+#' data(df_svl)
 NA
 
-#' @title Tree to reroot
-#'
-#' @description 
-#' This tree is used to demonstrate the `root()` method for treedata object
-#' to re-root a phylogenetic tree with associated data.\cr
-#' Chap.2.3
-#'
-#' @name data-tree_nodes.newick
-#' @format S4 class:treedata
-#' @aliases tree_nodes.newick
-#' @docType data
-#' @keywords data
-#' @source
-#' \url{https://github.com/stamatak/tree-viz-issues}
-#' @references Lucas Czech, Jaime Huerta-Cepas, Alexandros Stamatakis, 
-#'  A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.
-#'  Molecular Biology and Evolution, Volume 34, Issue 6, June 2017, Pages 1535–1542, 
-#'  https://doi.org/10.1093/molbev/msx055
-#' @examples 
-#' data(tree_nodes.newick)
-NA
+## #' @title Tree to reroot
+## #'
+## #' @description 
+## #' This tree is used to demonstrate the `root()` method for treedata object
+## #' to re-root a phylogenetic tree with associated data.\cr
+## #' Chap.2.3
+## #'
+## #' @name data-tree_td_nodes_nwk
+## #' @format S4 class:treedata
+## #' @aliases tree_td_nodes_nwk
+## #' @docType data
+## #' @keywords data
+## #' @source
+## #' \url{https://github.com/stamatak/tree-viz-issues}
+## #' @references Lucas Czech, Jaime Huerta-Cepas, Alexandros Stamatakis, 
+## #'  A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.
+## #'  Molecular Biology and Evolution, Volume 34, Issue 6, June 2017, Pages 1535–1542, 
+## #'  https://doi.org/10.1093/molbev/msx055
+## #' @examples 
+## #' data(tree_td_nodes_nwk)
+## NA
 
 #' @title Tree to group and highlight
 #'
@@ -96,15 +96,15 @@ NA
 #' grouping, highlighting and labelling.\cr
 #' Chap.13.3
 #'
-#' @name data-Tree_30.4.19.nwk
+#' @name data-tree_treenwk_30.4.19
 #' @format S3 class:Phylo
-#' @aliases Tree_30.4.19.nwk
+#' @aliases tree_treenwk_30.4.19
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://doi.org/10.1016/j.molimm.2019.07.022.}
 #' @examples
-#' data(Tree_30.4.19.nwk)
+#' data(tree_treenwk_30.4.19)
 NA
 
 #' @title Tree to be mapped to data
@@ -114,29 +114,29 @@ NA
 #' to attach annotation data to a ggtree graphic object.\cr
 #' Chap.7.1
 #'
-#' @name data-tree_boots.nwk
+#' @name data-tree_boots
 #' @format S3 class:phylo
-#' @aliases tree_boots.nwk
+#' @aliases tree_boots
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://raw.githubusercontent.com/TreeViz/metastyle/master/design/
 #' viz_targets_exercise/tree_boots.nwk}
 #' @examples
-#' data(tree_boots.nwk)
+#' data(tree_boots)
 NA
 
 #' @title Tipdata to be mapped to tree
 #'
 #' @description 
-#' This data contains annotation information about tips of "tree_boots.nwk",
+#' This data contains annotation information about tips of \code{tree_boots},
 #' that is to be mapped to the tree using the `%<+%` operator.\cr
 #' Chap.7.1
 #'
-#' @name data-tip_data.csv
+#' @name data-df_tip_data
 #' @format A data frame contains 7 rows and 9 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases tip_data.csv
+#' @aliases df_tip_data
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
@@ -144,7 +144,7 @@ NA
 #' \url{https://raw.githubusercontent.com/TreeViz/metastyle/master/design/
 #' viz_targets_exercise/tip_data.csv}
 #' @examples
-#' data(tip_data.csv)
+#' data(df_tip_data)
 NA
 
 #' @title Nodedata to be mapped to tree
@@ -154,17 +154,17 @@ NA
 #' that is to be mapped to the tree using the `%<+%` operator.\cr
 #' Chap.7.1
 #'
-#' @name data-inode_data.csv
+#' @name data-df_inode_data
 #' @format A data frame with 6 rows and 6 variables with a column of node 
 #' or first column of taxa labels.
-#' @aliases inode_data.csv
+#' @aliases df_inode_data
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://raw.githubusercontent.com/TreeViz/metastyle/master/design/
 #' viz_targets_exercise/inode_data.csv}
 #' @examples
-#' data(tip_data.csv)
+#' data(df_inode_data)
 NA
 
 #' @title Tree to display with sampling information, SNP and Trait data
@@ -174,16 +174,16 @@ NA
 #' and bar chart of Trait data.\cr
 #' Chap.7.2
 #'
-#' @name data-tree.nwk
+#' @name data-tree_nwk
 #' @format S3 class:phylo
-#' @aliases tree.nwk
+#' @aliases tree_nwk
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://raw.githubusercontent.com/katholt/plotTree/master/
 #' tree_example_april2015/tree.nwk}
 #' @examples
-#' data(tree.nwk)
+#' data(tree_nwk)
 NA
 
 #' @title Sampling information data set
@@ -192,10 +192,10 @@ NA
 #' The sampling information data set be attached to the tree tip. \cr
 #' Chap.7.2
 #'
-#' @name data-info.csv
+#' @name data-df_info
 #' @format A data frame contains 386 rows and 6 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases info.csv
+#' @aliases df_info
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
@@ -203,7 +203,7 @@ NA
 #' \url{https://raw.githubusercontent.com/katholt/plotTree/master/
 #' tree_example_april2015/info.csv}
 #' @examples
-#' data(info.csv)
+#' data(df_info)
 NA
 
 #' @title Trait data
@@ -233,17 +233,17 @@ NA
 #' to the tree after visualizing.\cr
 #' Chap.7.2
 #'
-#' @name data-alleles.csv
+#' @name data-df_alleles.csv
 #' @format A data frame contains 386 rows and 385 variables, with first row of
 #' tips labels.
-#' @aliases alleles.csv
+#' @aliases df_alleles
 #' @docType data
 #' @keywords data
 #' @source
 #' \url{https://raw.githubusercontent.com/katholt/plotTree/master/
 #' tree_example_april2015/alleles.csv}
 #' @examples
-#' data(alleles.csv)
+#' data(df_alleles)
 NA
 
 #' @title Tree to display with multiple graphs for multi-dimensional data
@@ -253,15 +253,15 @@ NA
 #' adding multiple layers to present different types of data by `ggtreeExtra`.\cr
 #' Chap.10.3
 #'
-#' @name data-hmptree.nwk
+#' @name data-tree_hmptree
 #' @format S3 class:phylo
-#' @aliases hmptree.nwk
+#' @aliases tree_hmptree
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://doi.org/10.1016/J.TIG.2012.09.005}
 #' @examples
-#' data(hmptree.nwk)
+#' data(tree_hmptree)
 NA
 
 #' @title Data set of the abundance and types of microbes
@@ -271,17 +271,17 @@ NA
 #' tips.\cr
 #' Chap.10.3
 #'
-#' @name data-tippoint_attr.csv
+#' @name data-df_tippoint
 #' @format A data frame contains 332 rows and 4 variables,with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases tippoint_attr.csv
+#' @aliases df_tippoint
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{https://doi.org/10.7717/peerj.1029}
 #' @examples
-#' data(tippoint_attr.csv)
+#' data(df_tippoint)
 NA
 
 #' @title Data set of the abundance and types of microbes
@@ -291,17 +291,17 @@ NA
 #' visualized using heatmap and attached to the tree.\cr
 #' Chap.10.3
 #'
-#' @name data-ringheatmap_attr.csv
+#' @name data-df_ring_heatmap
 #' @format A data frame contains 2324 rows and 3 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases ringheatmap_attr.csv
+#' @aliases df_ring_heatmap
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{https://doi.org/10.7717/peerj.1029}
 #' @examples
-#' data(ringheatmap_attr.csv)
+#' data(df_ring_heatmap)
 NA
 
 #' @title Data set of the abundance of microbes at the body sites of greatest 
@@ -312,17 +312,17 @@ NA
 #' prevalence to be visualized using barplot and attached to the tree.\cr
 #' Chap.10.3
 #'
-#' @name data-barplot_attr.csv
+#' @name data-df_barplot_attr
 #' @format A data frame contains 332 rows and 3 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases barplot_attr.csv
+#' @aliases df_barplot_attr
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{https://doi.org/10.7717/peerj.1029}
 #' @examples
-#' data(barplot_attr.csv)
+#' data(df_barplot_attr)
 NA
 
 #' @title Tree No.1 to display with visualized population genetics data
@@ -333,15 +333,15 @@ NA
 #' Reproduction of Fig.4 of (Chow et al. 2020).\cr
 #' Chap.10.4
 #'
-#' @name data-Candidaauris_tree.nwk
+#' @name data-tree_Candidaauris
 #' @format S3 class:phylo
-#' @aliases Candidaauris_tree.nwk
+#' @aliases tree_Candidaauris
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://doi.org/10.1128/mBio.03364-19}
 #' @examples
-#' data(Candidaauris_tree.nwk)
+#' data(tree_Candidaauris)
 NA
 
 #' @title Population genetics data No.1
@@ -351,17 +351,17 @@ NA
 #' attached to tree No.1 with `geo_fruit()` of `ggtreeExtra`.\cr
 #' Chap.10.4
 #'
-#' @name data-Candidaauris_data.csv
+#' @name data-df_Candidaauris_data
 #' @format A data frame contains 305 rows and 20 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases Candidaauris_data.csv
+#' @aliases df_Candidaauris_data
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{https://doi.org/10.1128/mBio.03364-19}
 #' @examples
-#' data(Candidaauris_data.csv)
+#' data(df_Candidaauris_data)
 NA
 
 #' @title Tree No.2 to display with visualized population genetics data
@@ -372,15 +372,15 @@ NA
 #' Reproduction of Fig 1 of (Wong et al. 2015).\cr
 #' Chap.10.4
 #'
-#' @name data-NJIDqgsS_tree.nwk
+#' @name data-tree_NJIDqgsS
 #' @format S3 class:phylo
-#' @aliases NJIDqgsS_tree.nwk
+#' @aliases tree_NJIDqgsS
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://doi.org/10.1038/ng.3281}
 #' @examples
-#' data(NJIDqgsS_tree.nwk)
+#' data(tree_NJIDqgsS)
 NA
 
 #' @title Population genetics data No.2
@@ -390,17 +390,17 @@ NA
 #' attached to tree No.2 with `geo_fruit()` of `ggtreeExtra`.\cr
 #' Chap.10.4
 #'
-#' @name data-NJIDqgsS_data.csv
+#' @name data-df_NJIDqgsS
 #' @format A data frame contains 1351 rows and 7 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases NJIDqgsS_data.csv
+#' @aliases df_NJIDqgsS
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{https://doi.org/10.1038/ng.3281}
 #' @examples
-#' data(NJIDqgsS_data.csv)
+#' data(df_NJIDqgsS)
 NA
 
 #' @title Data frame containing hierarchical relationship
@@ -415,16 +415,17 @@ NA
 #' taxonomy tree with The `MicrobiotaProcess` package.\cr
 #' Chap.11.1
 #'
-#' @name data-alltax_info.csv
-#' @format A data frame contains 1351 rows and 7 variables.
-#' @aliases alltax_info.csv
+#' @name data-df_alltax_info
+#' @format A data frame to store taxonomy information, contains 1351 rows and 7 
+#' variables (classification levels).
+#' @aliases df_alltax_info
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{ https://doi.org/10.1101/gr.126573.111}
 #' @examples
-#' data(alltax_info.csv)
+#' data(df_alltax_info)
 NA
 
 #' @title Data frame containing taxa and factor information and pvalue
@@ -437,16 +438,16 @@ NA
 #' taxonomy tree with The `MicrobiotaProcess` package.\cr
 #' Chap.11.1
 #'
-#' @name data-difftax_tab.csv
+#' @name data-df_difftax
 #' @format A data frame contains 36 rows and 3 variables.
-#' @aliases difftax_tab.csv
+#' @aliases df_difftax
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
 #' @source 
 #' \url{ https://doi.org/10.1101/gr.126573.111}
 #' @examples
-#' data(difftax_tab.csv)
+#' data(df_difftax)
 NA
 
 #' @title Tree to display with dot and line plots of pairwise nucleotide sequence distances
@@ -460,27 +461,27 @@ NA
 #' Reproduction fo Fig. 1 of (Chen et al. 2017).\cr
 #' Chap.13.1
 #'
-#' @name data-HPV58.tree
+#' @name data-tree_HPV58
 #' @format S3 class:phylo
-#' @aliases HPV58.tree
+#' @aliases tree_HPV58
 #' @docType data
 #' @keywords data
 #' @source 
 #' \url{https://doi.org/10.1128/JVI.01285-17}
 #' @examples
-#' data(HPV58.tree)
+#' data(tree_HPV58)
 NA
 
 #' @title A DNAStringSet class to store the aligned sequnces of species of HPV58.tree
-#' @name data-HPV58_aln.fas
+#' @name data-dna_HPV58_aln
 #' @format S4 class:DNAStringSet
-#' @aliases HPV58_aln.fas
+#' @aliases dna_HPV58_aln
 #' @docType data
 #' @keywords data
 #' @source
 #' \url{https://doi.org/10.1128/JVI.01285-17}
 #' @examples
-#' data(HPV58_aln.fas)
+#' data(dna_HPV58_aln)
 NA
 
 #' @title Tree to display with symbolic points indicating partitioned bootstrap values
@@ -492,13 +493,13 @@ NA
 #' to indicate whether the clade is high, moderate or low support.\cr
 #' Chap.13.2
 #'
-#' @name data-RMI.phy_phyml_tree
+#' @name data-text_RMI_tree
 #' @format character
-#' @aliases RMI.phy_phyml_tree
+#' @aliases text_RMI_tree
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(RMI.phy_phyml_tree)
+#' data(text_RMI_tree)
 NA
 
 #' @title Data set containing ladderize and nonladderize trees
@@ -508,13 +509,13 @@ NA
 #' `plot.phylo()` and `ggtree` to visualize ladderize and nonladderize trees.\cr
 #' Appendix.A.5.1
 #'
-#' @name data-ladderize_example.rds
+#' @name data-gg_ladderize_example
 #' @format S3:gg, ggplot
-#' @aliases ladderize_example.rds
+#' @aliases gg_ladderize_example
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(ladderize_example.rds)
+#' data(gg_ladderize_example)
 NA
 
 #' @title Tree to display with shrunk outlier long branch
@@ -525,13 +526,13 @@ NA
 #' coordination of the out groups, or with the `ggbreak` package.\cr
 #' Appendix.A.5.3
 #'
-#' @name data-long_branch_example.newick
+#' @name data-tree_long_branch_example
 #' @format S3 class:Phylo
-#' @aliases long_branch_example.newick
+#' @aliases tree_long_branch_example
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(long_branch_example.newick)
+#' data(tree_long_branch_example)
 NA
 
 #' @title Tree to display with silhouettes from Phylopic
@@ -542,11 +543,11 @@ NA
 #' phylopic figures by querying provided UID.\cr
 #' Chap.8.2
 #'
-#' @name data-tree.nex
+#' @name data-tree_nex
 #' @format S3 class:Phylo
-#' @aliases tree.nex
+#' @aliases tree_nex
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(tree.nex)
+#' data(tree_nex)
 NA
