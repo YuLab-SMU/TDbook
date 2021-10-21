@@ -21,7 +21,6 @@ tree_boots,tree_boots.nwk
 tree_nex,tree.nex
 tree_nwk,tree_example_april2015/tree.nwk
 tree_seq_nwk,tree.nwk
-tree_td_nodes_nwk,reroot/tree_nodes.newick
 tree_HPV58,HPV58.tree
 dna_HPV58_aln,HPV58_aln.fas
 gg_ladderize_example,ladderize_example.rds
