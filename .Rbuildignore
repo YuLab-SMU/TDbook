@@ -5,3 +5,5 @@
 ^CONDUCT\.md$
 ^\.Rproj\.user$
 ^\.Rproj$
+^LICENSE\.md$
+^\.rda_to_rawdata$
