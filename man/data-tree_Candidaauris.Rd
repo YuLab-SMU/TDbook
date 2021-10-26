@@ -8,9 +8,6 @@
 \format{
 S3 class:phylo
 }
-\source{
-\url{https://doi.org/10.1128/mBio.03364-19}
-}
 \description{
 Tree No.1 to display with visualized population genetics data for
 demonstrating the utility of \code{ggtreeExtra}.\cr
@@ -19,5 +16,12 @@ Chap.10.4
 }
 \examples{
 data(tree_Candidaauris)
+}
+\references{
+Chow, Nancy A., José F. Muñoz, Lalitha Gade, Elizabeth L. Berkow, Xiao Li, Rory M. Welsh, Kaitlin Forsberg, et al.
+Tracing the Evolutionary History and Global Expansion of Candida Auris Using Population Genomic Analyses.
+Edited by Geraldine Butler and Kirsten Nielsen.
+mBio, Volume 11, Issue 2, April 2020.
+\doi{10.1128/mBio.03364-19}
 }
 \keyword{data}

@@ -8,9 +8,6 @@
 \format{
 S3 class:Phylo
 }
-\source{
-\url{https://doi.org/10.1016/j.molimm.2019.07.022.}
-}
 \description{
 This tree is used to reproduce Figure 1 of (Larsen et al. 2019) with
 grouping, highlighting and labelling.\cr
@@ -18,5 +15,12 @@ Chap.13.3
 }
 \examples{
 data(tree_treenwk_30.4.19)
+}
+\references{
+Larsen, Frederik T., Bertrand Bed’Hom, Bernt Guldbrandtsen, and Tina S. Dalgaard.
+Identification and Tissue-Expression Profiling of Novel Chicken c-Type Lectin-Like Domain Containing Proteins
+as Potential Targets for Carbohydrate-Based Vaccine Strategies.
+Molecular Immunology, Volume 114, Issue October, October 2019, pages 216–25.
+\doi{10.1016/j.molimm.2019.07.022}
 }
 \keyword{data}

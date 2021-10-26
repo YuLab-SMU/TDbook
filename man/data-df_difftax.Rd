@@ -9,9 +9,6 @@
 \format{
 A data frame contains 36 rows and 3 variables.
 }
-\source{
-\url{ https://doi.org/10.1101/gr.126573.111}
-}
 \description{
 This Data frame contains taxa and factor information and pvalue to be visualized
 with another data frame that contains hierarchical relationship, using
@@ -22,5 +19,11 @@ Chap.11.1
 }
 \examples{
 data(df_difftax)
+}
+\references{
+Kostic, Aleksandar D, Dirk Gevers, Chandra Sekhar Pedamallu, Monia Michaud, Fujiko Duke, Ashlee M Earl, Akinyemi I Ojesina, et al.
+Genomic Analysis Identifies Association of Fusobacterium with Colorectal Carcinoma.”
+Genome Research, Volume 22, Issue 2, 2012, Pages 292–98.
+\doi{10.1101/gr.126573.111}
 }
 \keyword{data}
