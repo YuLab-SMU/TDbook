@@ -67,27 +67,27 @@ NA
 #' data(df_svl)
 NA
 
-#' @title Tree to reroot
-#'
-#' @description 
-#' This tree is used to demonstrate the `root()` method for treedata object
-#' to re-root a phylogenetic tree with associated data.\cr
-#' Chap.2.3
-#'
-#' @name data-tree_td_nodes_nwk
-#' @format S4 class:treedata
-#' @aliases tree_td_nodes_nwk
-#' @docType data
-#' @keywords data
-#' @source
-#' \url{https://github.com/stamatak/tree-viz-issues}
-#' @references Lucas Czech, Jaime Huerta-Cepas, Alexandros Stamatakis, 
-#'  A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.
-#'  Molecular Biology and Evolution, Volume 34, Issue 6, June 2017, Pages 1535–1542, 
-#'  \doi{10.1093/molbev/msx055}
-#' @examples 
-#' data(tree_td_nodes_nwk)
-NA
+## #' @title Tree to reroot
+## #'
+## #' @description 
+## #' This tree is used to demonstrate the `root()` method for treedata object
+## #' to re-root a phylogenetic tree with associated data.\cr
+## #' Chap.2.3
+## #'
+## #' @name data-tree_td_nodes_nwk
+## #' @format S4 class:treedata
+## #' @aliases tree_td_nodes_nwk
+## #' @docType data
+## #' @keywords data
+## #' @source
+## #' \url{https://github.com/stamatak/tree-viz-issues}
+## #' @references Lucas Czech, Jaime Huerta-Cepas, Alexandros Stamatakis, 
+## #'  A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.
+## #'  Molecular Biology and Evolution, Volume 34, Issue 6, June 2017, Pages 1535–1542, 
+## #'  \doi{10.1093/molbev/msx055}
+## #' @examples 
+## #' data(tree_td_nodes_nwk)
+## NA
 
 #' @title Tree to group and highlight
 #'
