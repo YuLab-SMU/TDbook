@@ -4,17 +4,20 @@
 \name{data-dna_HPV58_aln}
 \alias{data-dna_HPV58_aln}
 \alias{dna_HPV58_aln}
-\title{A DNAStringSet class to store the aligned sequnces of species of HPV58.tree}
+\title{A DNAbin class to store the aligned sequnces of species of HPV58.tree}
 \format{
-S4 class:DNAStringSet
-}
-\source{
-\url{https://doi.org/10.1128/JVI.01285-17}
+S3 class:DNAbin
 }
 \description{
-A DNAStringSet class to store the aligned sequnces of species of HPV58.tree
+A DNAbin class to store the aligned sequnces of species of HPV58.tree
 }
 \examples{
 data(dna_HPV58_aln)
+}
+\references{
+Chen, Zigui, Wendy C. S. Ho, Siaw Shi Boon, Priscilla T. Y. Law, Martin C. W. Chan, Rob DeSalle, Robert D. Burk, and Paul K. S. Chan.
+Ancient Evolution and Dispersion of Human Papillomavirus 58 Variants.
+Journal of Virology, Volume 91, Issue 21, November 2017, e01285–17.
+\doi{10.1128/JVI.01285-17}
 }
 \keyword{data}

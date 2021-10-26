@@ -10,9 +10,6 @@
 A data frame contains 1351 rows and 7 variables, with a column of
 "node" or first column of taxa labels.
 }
-\source{
-\url{https://doi.org/10.1038/ng.3281}
-}
 \description{
 Population genetics data to be visualized using multiple graphs and
 attached to tree No.2 with \code{geo_fruit()} of \code{ggtreeExtra}.\cr
@@ -20,5 +17,11 @@ Chap.10.4
 }
 \examples{
 data(df_NJIDqgsS)
+}
+\references{
+Wong, Vanessa K., Stephen Baker, Derek J. Pickard, Julian Parkhill, Andrew J. Page, Nicholas A. Feasey, Robert A. Kingsley, et al.
+Phylogeographical Analysis of the Dominant Multidrug-Resistant H58 Clade of Salmonella Typhi Identifies Inter- and Intracontinental Transmission Events.
+Nature Genetics, Volume 47, Issue 6, May 2015, Pages 632–39.
+\doi{10.1038/ng.3281}
 }
 \keyword{data}

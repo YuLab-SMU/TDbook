@@ -10,9 +10,6 @@
 A data frame contains 2324 rows and 3 variables, with a column of
 "node" or first column of taxa labels.
 }
-\source{
-\url{https://doi.org/10.7717/peerj.1029}
-}
 \description{
 The data set of abundance of microbes at different body sites to be
 visualized using heatmap and attached to the tree.\cr
@@ -20,5 +17,11 @@ Chap.10.3
 }
 \examples{
 data(df_ring_heatmap)
+}
+\references{
+Asnicar, Francesco, George Weingart, Timothy L Tickle, Curtis Huttenhower, and Nicola Segata.
+Compact Graphical Representation of Phylogenetic Data and Metadata with GraPhlAn.
+PeerJ, 3: e1029, June 2015.
+\doi{10.7717/peerj.1029}
 }
 \keyword{data}

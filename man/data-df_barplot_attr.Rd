@@ -11,9 +11,6 @@ prevalence}
 A data frame contains 332 rows and 3 variables, with a column of
 "node" or first column of taxa labels.
 }
-\source{
-\url{https://doi.org/10.7717/peerj.1029}
-}
 \description{
 The data set of abundance of microbes at the body sites of greatest
 prevalence to be visualized using barplot and attached to the tree.\cr
@@ -21,5 +18,11 @@ Chap.10.3
 }
 \examples{
 data(df_barplot_attr)
+}
+\references{
+Asnicar, Francesco, George Weingart, Timothy L Tickle, Curtis Huttenhower, and Nicola Segata.
+Compact Graphical Representation of Phylogenetic Data and Metadata with GraPhlAn.
+PeerJ, 3: e1029, June 2015.
+\doi{10.7717/peerj.1029}
 }
 \keyword{data}

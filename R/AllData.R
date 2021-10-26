@@ -84,7 +84,7 @@ NA
 ## #' @references Lucas Czech, Jaime Huerta-Cepas, Alexandros Stamatakis, 
 ## #'  A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.
 ## #'  Molecular Biology and Evolution, Volume 34, Issue 6, June 2017, Pages 1535–1542, 
-## #'  https://doi.org/10.1093/molbev/msx055
+## #'  \doi{10.1093/molbev/msx055}
 ## #' @examples 
 ## #' data(tree_td_nodes_nwk)
 ## NA
@@ -101,8 +101,11 @@ NA
 #' @aliases tree_treenwk_30.4.19
 #' @docType data
 #' @keywords data
-#' @source 
-#' \url{https://doi.org/10.1016/j.molimm.2019.07.022.}
+#' @references Larsen, Frederik T., Bertrand Bed’Hom, Bernt Guldbrandtsen, and Tina S. Dalgaard. 
+#' Identification and Tissue-Expression Profiling of Novel Chicken c-Type Lectin-Like Domain Containing Proteins 
+#' as Potential Targets for Carbohydrate-Based Vaccine Strategies. 
+#' Molecular Immunology, Volume 114, Issue October, October 2019, pages 216–25.
+#' \doi{10.1016/j.molimm.2019.07.022}
 #' @examples
 #' data(tree_treenwk_30.4.19)
 NA
@@ -249,7 +252,8 @@ NA
 #' @title Tree to display with multiple graphs for multi-dimensional data
 #'
 #' @description 
-#' The tree to display with multiple graphs, for demonstrating the feature of 
+#' This tree is to display with multiple graphs, and by reproducing 
+#' Fig.2 of (Morgan, Segata, and Huttenhower 2013), demonstrates the feature of 
 #' adding multiple layers to present different types of data by `ggtreeExtra`.\cr
 #' Chap.10.3
 #'
@@ -258,8 +262,10 @@ NA
 #' @aliases tree_hmptree
 #' @docType data
 #' @keywords data
-#' @source 
-#' \url{https://doi.org/10.1016/J.TIG.2012.09.005}
+#' @references Morgan, Xochitl C., Nicola Segata, and Curtis Huttenhower. 
+#' Biodiversity and Functional Genomics in the Human Microbiome.
+#' Trends in Genetics Volume 29, Issue 1, 2013 January, Pages 51–58. 
+#' \doi{10.1016/J.TIG.2012.09.005}
 #' @examples
 #' data(tree_hmptree)
 NA
@@ -268,7 +274,7 @@ NA
 #'
 #' @description 
 #' The data set of abundance and types of microbes to be attached to the tree 
-#' tips.\cr
+#' tips, provided by GraPhlAn (Asnicar et al. 2015).\cr
 #' Chap.10.3
 #'
 #' @name data-df_tippoint
@@ -278,8 +284,10 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{https://doi.org/10.7717/peerj.1029}
+#' @references Asnicar, Francesco, George Weingart, Timothy L Tickle, Curtis Huttenhower, and Nicola Segata.
+#' Compact Graphical Representation of Phylogenetic Data and Metadata with GraPhlAn. 
+#' PeerJ, 3: e1029, June 2015. 
+#' \doi{10.7717/peerj.1029}
 #' @examples
 #' data(df_tippoint)
 NA
@@ -298,8 +306,10 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{https://doi.org/10.7717/peerj.1029}
+#' @references Asnicar, Francesco, George Weingart, Timothy L Tickle, Curtis Huttenhower, and Nicola Segata.
+#' Compact Graphical Representation of Phylogenetic Data and Metadata with GraPhlAn. 
+#' PeerJ, 3: e1029, June 2015. 
+#' \doi{10.7717/peerj.1029}
 #' @examples
 #' data(df_ring_heatmap)
 NA
@@ -319,8 +329,10 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{https://doi.org/10.7717/peerj.1029}
+#' @references Asnicar, Francesco, George Weingart, Timothy L Tickle, Curtis Huttenhower, and Nicola Segata.
+#' Compact Graphical Representation of Phylogenetic Data and Metadata with GraPhlAn. 
+#' PeerJ, 3: e1029, June 2015. 
+#' \doi{10.7717/peerj.1029}
 #' @examples
 #' data(df_barplot_attr)
 NA
@@ -338,8 +350,11 @@ NA
 #' @aliases tree_Candidaauris
 #' @docType data
 #' @keywords data
-#' @source 
-#' \url{https://doi.org/10.1128/mBio.03364-19}
+#' @references Chow, Nancy A., José F. Muñoz, Lalitha Gade, Elizabeth L. Berkow, Xiao Li, Rory M. Welsh, Kaitlin Forsberg, et al. 
+#' Tracing the Evolutionary History and Global Expansion of Candida Auris Using Population Genomic Analyses.
+#' Edited by Geraldine Butler and Kirsten Nielsen. 
+#' mBio, Volume 11, Issue 2, April 2020. 
+#' \doi{10.1128/mBio.03364-19}
 #' @examples
 #' data(tree_Candidaauris)
 NA
@@ -358,8 +373,11 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{https://doi.org/10.1128/mBio.03364-19}
+#' @references Chow, Nancy A., José F. Muñoz, Lalitha Gade, Elizabeth L. Berkow, Xiao Li, Rory M. Welsh, Kaitlin Forsberg, et al. 
+#' Tracing the Evolutionary History and Global Expansion of Candida Auris Using Population Genomic Analyses.
+#' Edited by Geraldine Butler and Kirsten Nielsen. 
+#' mBio, Volume 11, Issue 2, April 2020. 
+#' \doi{10.1128/mBio.03364-19}
 #' @examples
 #' data(df_Candidaauris_data)
 NA
@@ -377,8 +395,10 @@ NA
 #' @aliases tree_NJIDqgsS
 #' @docType data
 #' @keywords data
-#' @source 
-#' \url{https://doi.org/10.1038/ng.3281}
+#' @references Wong, Vanessa K., Stephen Baker, Derek J. Pickard, Julian Parkhill, Andrew J. Page, Nicholas A. Feasey, Robert A. Kingsley, et al.
+#' Phylogeographical Analysis of the Dominant Multidrug-Resistant H58 Clade of Salmonella Typhi Identifies Inter- and Intracontinental Transmission Events. 
+#' Nature Genetics, Volume 47, Issue 6, May 2015, Pages 632–39. 
+#' \doi{10.1038/ng.3281}
 #' @examples
 #' data(tree_NJIDqgsS)
 NA
@@ -397,8 +417,10 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{https://doi.org/10.1038/ng.3281}
+#' @references Wong, Vanessa K., Stephen Baker, Derek J. Pickard, Julian Parkhill, Andrew J. Page, Nicholas A. Feasey, Robert A. Kingsley, et al.
+#' Phylogeographical Analysis of the Dominant Multidrug-Resistant H58 Clade of Salmonella Typhi Identifies Inter- and Intracontinental Transmission Events. 
+#' Nature Genetics, Volume 47, Issue 6, May 2015, Pages 632–39. 
+#' \doi{10.1038/ng.3281}
 #' @examples
 #' data(df_NJIDqgsS)
 NA
@@ -422,8 +444,10 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{ https://doi.org/10.1101/gr.126573.111}
+#' @references Kostic, Aleksandar D, Dirk Gevers, Chandra Sekhar Pedamallu, Monia Michaud, Fujiko Duke, Ashlee M Earl, Akinyemi I Ojesina, et al.
+#' Genomic Analysis Identifies Association of Fusobacterium with Colorectal Carcinoma.”
+#' Genome Research, Volume 22, Issue 2, 2012, Pages 292–98. 
+#' \doi{10.1101/gr.126573.111}
 #' @examples
 #' data(df_alltax_info)
 NA
@@ -444,8 +468,10 @@ NA
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
-#' @source 
-#' \url{ https://doi.org/10.1101/gr.126573.111}
+#' @references Kostic, Aleksandar D, Dirk Gevers, Chandra Sekhar Pedamallu, Monia Michaud, Fujiko Duke, Ashlee M Earl, Akinyemi I Ojesina, et al.
+#' Genomic Analysis Identifies Association of Fusobacterium with Colorectal Carcinoma.”
+#' Genome Research, Volume 22, Issue 2, 2012, Pages 292–98. 
+#' \doi{10.1101/gr.126573.111}
 #' @examples
 #' data(df_difftax)
 NA
@@ -466,20 +492,24 @@ NA
 #' @aliases tree_HPV58
 #' @docType data
 #' @keywords data
-#' @source 
-#' \url{https://doi.org/10.1128/JVI.01285-17}
+#' @references Chen, Zigui, Wendy C. S. Ho, Siaw Shi Boon, Priscilla T. Y. Law, Martin C. W. Chan, Rob DeSalle, Robert D. Burk, and Paul K. S. Chan. 
+#' Ancient Evolution and Dispersion of Human Papillomavirus 58 Variants. 
+#' Journal of Virology, Volume 91, Issue 21, November 2017, e01285–17. 
+#' \doi{10.1128/JVI.01285-17}
 #' @examples
 #' data(tree_HPV58)
 NA
 
-#' @title A DNAStringSet class to store the aligned sequnces of species of HPV58.tree
+#' @title A DNAbin class to store the aligned sequnces of species of HPV58.tree
 #' @name data-dna_HPV58_aln
-#' @format S4 class:DNAStringSet
+#' @format S3 class:DNAbin
 #' @aliases dna_HPV58_aln
 #' @docType data
 #' @keywords data
-#' @source
-#' \url{https://doi.org/10.1128/JVI.01285-17}
+#' @references Chen, Zigui, Wendy C. S. Ho, Siaw Shi Boon, Priscilla T. Y. Law, Martin C. W. Chan, Rob DeSalle, Robert D. Burk, and Paul K. S. Chan. 
+#' Ancient Evolution and Dispersion of Human Papillomavirus 58 Variants. 
+#' Journal of Virology, Volume 91, Issue 21, November 2017, e01285–17. 
+#' \doi{10.1128/JVI.01285-17}
 #' @examples
 #' data(dna_HPV58_aln)
 NA
