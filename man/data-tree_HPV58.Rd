@@ -8,9 +8,6 @@
 \format{
 S3 class:phylo
 }
-\source{
-\url{https://doi.org/10.1128/JVI.01285-17}
-}
 \description{
 This tree is to provide accession numbers from its tip labels, which are used to
 calculates pairwise nucleotide sequence distances. The distance matrix
@@ -22,5 +19,11 @@ Chap.13.1
 }
 \examples{
 data(tree_HPV58)
+}
+\references{
+Chen, Zigui, Wendy C. S. Ho, Siaw Shi Boon, Priscilla T. Y. Law, Martin C. W. Chan, Rob DeSalle, Robert D. Burk, and Paul K. S. Chan.
+Ancient Evolution and Dispersion of Human Papillomavirus 58 Variants.
+Journal of Virology, Volume 91, Issue 21, November 2017, e01285–17.
+\doi{10.1128/JVI.01285-17}
 }
 \keyword{data}

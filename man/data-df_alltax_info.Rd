@@ -10,9 +10,6 @@
 A data frame to store taxonomy information, contains 1351 rows and 7
 variables (classification levels).
 }
-\source{
-\url{ https://doi.org/10.1101/gr.126573.111}
-}
 \description{
 This Data frame contains hierarchical relationship to be visualized with
 another data frame that contains taxa and factor information and pvalue,
@@ -25,5 +22,11 @@ Chap.11.1
 }
 \examples{
 data(df_alltax_info)
+}
+\references{
+Kostic, Aleksandar D, Dirk Gevers, Chandra Sekhar Pedamallu, Monia Michaud, Fujiko Duke, Ashlee M Earl, Akinyemi I Ojesina, et al.
+Genomic Analysis Identifies Association of Fusobacterium with Colorectal Carcinoma.”
+Genome Research, Volume 22, Issue 2, 2012, Pages 292–98.
+\doi{10.1101/gr.126573.111}
 }
 \keyword{data}

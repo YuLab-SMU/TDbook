@@ -10,9 +10,6 @@
 A data frame contains 305 rows and 20 variables, with a column of
 "node" or first column of taxa labels.
 }
-\source{
-\url{https://doi.org/10.1128/mBio.03364-19}
-}
 \description{
 Population genetics data to be visualized using multiple graphs and
 attached to tree No.1 with \code{geo_fruit()} of \code{ggtreeExtra}.\cr
@@ -20,5 +17,12 @@ Chap.10.4
 }
 \examples{
 data(df_Candidaauris_data)
+}
+\references{
+Chow, Nancy A., José F. Muñoz, Lalitha Gade, Elizabeth L. Berkow, Xiao Li, Rory M. Welsh, Kaitlin Forsberg, et al.
+Tracing the Evolutionary History and Global Expansion of Candida Auris Using Population Genomic Analyses.
+Edited by Geraldine Butler and Kirsten Nielsen.
+mBio, Volume 11, Issue 2, April 2020.
+\doi{10.1128/mBio.03364-19}
 }
 \keyword{data}
