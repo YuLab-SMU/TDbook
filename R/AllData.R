@@ -500,9 +500,9 @@ NA
 #' data(tree_HPV58)
 NA
 
-#' @title A DNAStringSet class to store the aligned sequnces of species of HPV58.tree
+#' @title A DNAbin class to store the aligned sequnces of species of HPV58.tree
 #' @name data-dna_HPV58_aln
-#' @format S4 class:DNAStringSet
+#' @format S3 class:DNAbin
 #' @aliases dna_HPV58_aln
 #' @docType data
 #' @keywords data

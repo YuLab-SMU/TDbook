@@ -4,12 +4,12 @@
 \name{data-dna_HPV58_aln}
 \alias{data-dna_HPV58_aln}
 \alias{dna_HPV58_aln}
-\title{A DNAStringSet class to store the aligned sequnces of species of HPV58.tree}
+\title{A DNAbin class to store the aligned sequnces of species of HPV58.tree}
 \format{
-S4 class:DNAStringSet
+S3 class:DNAbin
 }
 \description{
-A DNAStringSet class to store the aligned sequnces of species of HPV58.tree
+A DNAbin class to store the aligned sequnces of species of HPV58.tree
 }
 \examples{
 data(dna_HPV58_aln)
