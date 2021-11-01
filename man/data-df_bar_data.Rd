@@ -2,9 +2,9 @@
 % Please edit documentation in R/AllData.R
 \docType{data}
 \encoding{UTF-8}
-\name{data-bar.csv}
-\alias{data-bar.csv}
-\alias{bar.csv}
+\name{data-df_bar_data}
+\alias{data-df_bar_data}
+\alias{df_bar_data}
 \title{Trait data}
 \format{
 A data frame contains 386 rows and 2 variables, with a column of
@@ -19,6 +19,6 @@ The trait data to be visualized with bar plot and attached to the tree. \cr
 Chap.7.2
 }
 \examples{
-data(bar.csv)
+data(df_bar_data)
 }
 \keyword{data}
