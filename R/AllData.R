@@ -20,13 +20,13 @@ NA
 #' attached to the tree.\cr
 #' Chap.7.4
 #'
-#' @name data-dna_sequence
-#' @format DNAbin
-#' @aliases dna_sequence
+#' @name data-AA_sequence
+#' @format AAbin
+#' @aliases AA_sequence
 #' @docType data
 #' @keywords data
 #' @examples
-#' data(dna_sequence)
+#' data(AA_sequence)
 NA
 
 #' @title Tree to color with continuous state transition in edges
@@ -215,10 +215,10 @@ NA
 #' The trait data to be visualized with bar plot and attached to the tree. \cr
 #' Chap.7.2
 #'
-#' @name data-bar.csv
+#' @name data-df_bar_data
 #' @format A data frame contains 386 rows and 2 variables, with a column of 
 #' "node" or first column of taxa labels.
-#' @aliases bar.csv
+#' @aliases df_bar_data
 #' @docType data
 #' @keywords data
 #' @encoding UTF-8
@@ -226,7 +226,7 @@ NA
 #' \url{https://raw.githubusercontent.com/katholt/plotTree/master/
 #' tree_example_april2015/bar.csv}
 #' @examples
-#' data(bar.csv)
+#' data(df_bar_data)
 NA
 
 #' @title Allele table

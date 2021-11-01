@@ -1,6 +1,7 @@
 df_alleles
 df_alltax_info
 df_barplot_attr
+df_bar_data
 df_Candidaauris_data
 df_difftax
 df_info
@@ -11,7 +12,7 @@ df_svl
 df_tip_data
 df_tippoint
 dna_HPV58_aln
-dna_sequence
+AA_sequence
 gg_ladderize_example
 text_RMI_tree
 tree_anole

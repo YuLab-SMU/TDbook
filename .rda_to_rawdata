@@ -1,6 +1,7 @@
 rda,rawdata
 df_alleles,tree_example_april2015/alleles.csv
 df_info,tree_example_april2015/info.csv
+df_bar_data,tree_example_april2015/bar.csv
 df_alltax_info,alltax_info.csv
 df_barplot_attr,HMP_tree/barplot_attr.csv
 df_ring_heatmap,HMP_tree/ringheatmap_attr.csv
@@ -25,4 +26,4 @@ tree_HPV58,HPV58.tree
 dna_HPV58_aln,HPV58_aln.fas
 gg_ladderize_example,ladderize_example.rds
 text_RMI_tree,RMI.phy_phyml_tree_rooted_labeled.txt
-dna_sequence,sequence.fasta
+AA_sequence,sequence.fasta
