@@ -532,21 +532,6 @@ NA
 #' data(text_RMI_tree)
 NA
 
-#' @title Data set containing ladderize and nonladderize trees
-#'
-#' @description 
-#' This data set contains multiple graphs that demonstrate how to use 
-#' `plot.phylo()` and `ggtree` to visualize ladderize and nonladderize trees.\cr
-#' Appendix.A.5.1
-#'
-#' @name data-gg_ladderize_example
-#' @format S3:gg, ggplot
-#' @aliases gg_ladderize_example
-#' @docType data
-#' @keywords data
-#' @examples
-#' data(gg_ladderize_example)
-NA
 
 #' @title Tree to display with shrunk outlier long branch
 #'
