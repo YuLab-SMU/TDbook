@@ -7,11 +7,13 @@
 \title{TDbook: Companion Package for the Book "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574)}
 \description{
 The companion package that provides all the datasets used in the book "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574).
+
+\url{https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/}
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/YuLab-SMU/TDBook}
+  \item \url{https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/}
   \item Report bugs at \url{https://github.com/YuLab-SMU/TDbook/issues}
 }
 

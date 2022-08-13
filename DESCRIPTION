@@ -1,6 +1,6 @@
 Package: TDbook
 Title: Companion Package for the Book "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574)
-Version: 0.0.5
+Version: 0.0.6
 Authors@R: c(
        person("Guangchuang", "Yu",     email = "guangchuangyu@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-6485-8781")),
        person("Shuangbin", "Xu",       email = "xshuangbin@163.com",      role = "aut", comment = c(ORCID="0000-0003-3513-5362")),
@@ -12,8 +12,8 @@ Depends:
     R (>= 3.5)
 License: Artistic-2.0
 Encoding: UTF-8
-URL: https://github.com/YuLab-SMU/TDBook
+URL: https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/
 BugReports: https://github.com/YuLab-SMU/TDbook/issues
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
