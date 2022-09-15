@@ -1,5 +1,5 @@
 Package: TDbook
-Title: Companion Package for the Book "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574)
+Title: Companion Package for the Book "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574, doi:10.1201/9781003279242)
 Version: 0.0.6
 Authors@R: c(
        person("Guangchuang", "Yu",     email = "guangchuangyu@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-6485-8781")),
@@ -7,7 +7,7 @@ Authors@R: c(
        person("Lin", "Li",             email = "williamlee2220@qq.com",   role = "aut", comment = c(ORCID="0000-0002-6522-1889"))
        )
 Description: The companion package that provides all the datasets used in the book
- "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574).
+ "Data Integration, Manipulation and Visualization of Phylogenetic Trees" by Guangchuang Yu (2022, ISBN:9781032233574, doi:10.1201/9781003279242).
 Depends:
     R (>= 3.5)
 License: Artistic-2.0
